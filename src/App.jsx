@@ -10,15 +10,17 @@ import Headroom from "react-headroom";
 
 const App = () => {
 return(
-   <div className="min-h-screen bg-[#11071F] text-white">
+   <div className="min-h-screen bg-[#11071F] text-white font-poppins">
       <BrowserRouter>
          <ScrollToHashElement/>
          <Headroom>
             <NavBar />
          </Headroom>
-         <Home />
-         <About />
-         <MyProjects />
+            <Home />
+         <div className="container mx-auto px-2">
+            <About />
+            <MyProjects />
+        </div>
       </BrowserRouter>
    </div>
 )}
