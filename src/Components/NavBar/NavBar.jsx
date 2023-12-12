@@ -25,7 +25,7 @@ const NavBar = () => {
                   <NavLinks setIsOpen={setIsOpen}></NavLinks>
                </div>
                <div ref={refWraper} className="flex justify-end sm:hidden">
-                  <Hamburger  rounded toggled={isOpen} toggle={setIsOpen} />
+                  <Hamburger rounded toggled={isOpen} toggle={setIsOpen} color="#e38cff" />
 
                   <div >
                   {

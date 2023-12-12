@@ -7,6 +7,7 @@ return(
    <>
       <Link onClick={() => setIsOpen(false)} to='#home' className={` text-lg font-medium ${loc.hash === '#home' ?'  neonText':''}`}>Home</Link>
       <Link onClick={() => setIsOpen(false)} to='#about' className={` text-lg font-medium ${loc.hash === '#about' ? '  neonText' : ''}`}>About</Link>
+      <Link onClick={() => setIsOpen(false)} to='#mySkills' className={` text-lg font-medium ${loc.hash === '#mySkills' ? '  neonText' : ''}`}>My Skills</Link>
       <Link onClick={() => setIsOpen(false)} to='#projects' className={` text-lg font-medium ${loc.hash === '#projects' ? '  neonText' : ''}`}>My Projects</Link>
    </>
    )

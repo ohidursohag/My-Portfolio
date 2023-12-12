@@ -6,6 +6,7 @@ import Home from "./Components/Home/Home";
 import NavBar from "./Components/NavBar/NavBar";
 import ScrollToHashElement from "./Components/Utilities/ScrollToHashElement ";
 import Headroom from "react-headroom";
+import MySkills from "./Components/MySkills/MySkills";
 
 
 const App = () => {
@@ -19,6 +20,7 @@ return(
             <Home />
          <div className="container mx-auto px-2">
             <About />
+            <MySkills/>
             <MyProjects />
         </div>
       </BrowserRouter>
